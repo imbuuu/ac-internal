@@ -4,9 +4,6 @@
 BOOL Detour(VOID* target, VOID* ourFunc, UINT len);
 
 void godmode();
-
 void rapidfire();
+void infiniteammo();
 
-extern DWORD jmpBackAddyGodMode;
-
-extern DWORD jmpBackAddyRapidFire;

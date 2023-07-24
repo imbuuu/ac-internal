@@ -30,6 +30,21 @@
     <ClInclude Include="src\Hook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Begin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\dllmain.cpp">
@@ -45,6 +60,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\Hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Feature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Begin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

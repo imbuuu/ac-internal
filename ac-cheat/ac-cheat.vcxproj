@@ -163,13 +163,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\Begin.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\Features.h" />
     <ClInclude Include="src\Hook.h" />
     <ClInclude Include="src\Functions.h" />
     <ClInclude Include="src\framework.h" />
     <ClInclude Include="src\Global.h" />
     <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\Util.h" />
+    <ClInclude Include="src\Vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Begin.cpp" />
     <ClCompile Include="src\Hook.cpp" />
     <ClCompile Include="src\Functions.cpp" />
     <ClCompile Include="src\dllmain.cpp" />
@@ -180,6 +186,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="src\Global.cpp" />
+    <ClCompile Include="src\Feature.cpp" />
+    <ClCompile Include="src\Util.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
